@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscription - Miayi Soukoulou</title>
+    <link rel="stylesheet" href="universite.css">
+</head>
+<body>
+    <!--En-tête-->
+    <header>
+        <h1>Inscription à MIAYI SOUKOULOU</h1>
+        <nav>
+            <a href="universite.html">Acceuil</a>
+            <a href="about.html">À Propos</a>
+            <a href="connexion.html">Connexion</a>
+        </nav>
+    </header>
+    <!-- Formulaire d'inscription -->
+    <main>
+          <!--LIEN AVEC LE PHP POUR RECUPERER LES DONNES-->
+    <form id="registrationForm" action="http://localhost/MON%20PROJET/inscription_process.php" method="POST">
+
+        <section class="form-container">
+            <h2>Veuillez remplir vos informations</h2>
+            <form id="registrationForm">
+                <label for="nom">Nom :</label>
+                <input type="text" id="nom" name="nom" placeholder="Votre nom" required>
+                
+                <label for="prenom">Prénom :</label>
+                <input type="text" id="prenom" name="prenom" placeholder="Votre prénom" required>
+                
+                <label for="age">Date de naissance :</label>
+                <input type="date" id="age" name="age" required>
+                
+                <label for="sexe">Sexe :</label>
+                <select id="sexe" name="sexe" required>
+                    <option value="">--Choisir--</option>
+                    <option value="male">Masculin</option>
+                    <option value="female">Féminin</option>
+                    <option value="autre">Autre</option>
+                </select>
+                
+                <label for="typeBac">Type de BAC :</label>
+                <input type="text" id="typeBac" name="typeBac" placeholder="Ex : BAC S" required>
+                
+                <label for="contact">Contact :</label>
+                <input type="text" id="contact" name="contact" placeholder="Numéro de téléphone" required>
+                
+                <label for="username">Nom d'utilisateur :</label>
+                <input type="text" id="username" name="username" placeholder="Choisissez un pseudo" required>
+                
+                <label for="password">Mot de passe :</label>
+                <input type="password" id="password" name="password" placeholder="Minimum 8 caractères" required>
+
+                <!-- Bouton de validation -->
+                <button type="submit" id="submitBtn" class="disabled" disabled>Créer mon compte</button>
+            </form>
+        </section>
+    </form>
+    </main>
+     <footer>
+        <p>&copy; 2025 Miayi Soukoulou. Tous droits réservés.</p>
+    </footer>
+
+    <!--LIEN AVEC LE JAVASCRIPT POUR LE CONTROLE ET DYNAMISATION DE LA SAISIE-->
+    <script src="univ_inscription.js"></script>
+
+</body>
+</html>
