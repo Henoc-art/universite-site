@@ -1,6 +1,6 @@
 /* CSS DE LA PAGE DE CONNEXION */
 header {
-    background: olive;
+    background: maroon;
     color: #fff;
     padding: 1rem 0;
     text-align: center;
@@ -47,8 +47,8 @@ form input {
 
 form input:focus {
     outline: none;
-    border: 2px solid #28a745;
-    box-shadow: 0 0 5px rgba(40, 167, 69, 0.5);
+    border: 2px solid #ecb534;
+    box-shadow: 0 0 5px rgba(238, 163, 41, 0.5);
 }
 
 /* Style pour les boutons */
@@ -59,7 +59,7 @@ button:disabled {
 }
 
 button {
-    background: #28a745;
+    background: #e4a320;
     color: white;
     padding: 0.75rem;
     border: none;
@@ -76,6 +76,6 @@ button:hover:enabled {
 footer {
     text-align: center;
     padding: 1rem;
-    background: olive;
+    background: maroon;
     color: #fff;
 }

@@ -1,0 +1,36 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header{
+    background: maroon;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+header nav a{
+    color: #fff;
+    margin: 0 1rem;
+    text-decoration: none;
+}
+
+ul{
+    list-style-position: inside; /* Déplace les points dans le texte */
+    padding: 0;
+    margin: 0;
+}
+
+main{
+    padding: 1rem;
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+    padding: 1rem;
+    background: maroon;
+    color: #fff;
+}

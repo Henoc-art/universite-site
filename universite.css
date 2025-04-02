@@ -6,7 +6,7 @@ body{
 }
 
 header{
-    background: olive;
+    background: maroon;
     color: #fff;
     padding: 1rem 0;
     text-align: center;
@@ -55,7 +55,7 @@ main{
 footer{
     text-align: center;
     padding: 1rem;
-    background: olive;
+    background: maroon;
     color: #fff;
 }
 
@@ -63,7 +63,7 @@ footer{
 
 /*CSS DU ABOUT*/
 header{
-    background: olive;
+    background: maroon;
     color: #fff;
     padding: 1rem 0;
     text-align: center;
@@ -93,12 +93,12 @@ main{
 footer {
     text-align: center;
     padding: 1rem;
-    background: olive;
+    background: maroon;
     color: #fff;
 }
 /* Styles généraux pour les boîtes */
 .box{
-    background: khaki;
+    background: orange;
     border: 1px solid #ccc;
     border-radius: 10px;
     padding: 1.5rem;

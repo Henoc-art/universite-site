@@ -14,13 +14,13 @@ $user = $_SESSION['user']; // Récupère les données utilisateur
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Espace Utilisateur</title>
-    <link rel="stylesheet" href="universite.css">
+    <link rel="stylesheet" href="user.css">
 </head>
 <body>
     <header>
         <h1>Bienvenue, <?= htmlspecialchars($user['prenom']) ?> <?= htmlspecialchars($user['nom']) ?> !</h1>
-        
-        <nav><a href="universite.html">Acceuil</a></nav>
+
+        <nav><a href="index.html">Acceuil</a></nav>
     </header>
     <main>
         <section>
@@ -33,5 +33,9 @@ $user = $_SESSION['user']; // Récupère les données utilisateur
             <a href="logout.php">Se déconnecter</a>
         </section>
     </main>
+
+    <footer>
+        <p>&copy;2025 Miayi Soukoulou. Tous droits réservés.</p>
+     </footer>
 </body>
 </html>
