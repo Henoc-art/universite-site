@@ -30,7 +30,7 @@ $user = $_SESSION['user']; // Récupère les données utilisateur
                 <li><strong>Prénom :</strong> <?= htmlspecialchars($user['prenom']) ?></li>
                 <li><strong>Contact :</strong> <?= htmlspecialchars($user['contact']) ?></li>
             </ul>
-            <a href="logout.php">Se déconnecter</a>
+            <a href="index.html">Se déconnecter</a>
         </section>
     </main>
 
